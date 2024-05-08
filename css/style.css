@@ -55,6 +55,7 @@ li {
     display: flex;
     align-items: center;
     padding-block-end: 0.5rem;
+    line-height: 1.5;
 }
 
 li::before {
