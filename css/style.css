@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--white);
+    max-inline-size: clamp(20rem, calc(70em + 1.5vw), 80rem);
 }
 .card-bottom-half {
     display: flex;
@@ -77,8 +78,10 @@ li::before {
 
 
 
+
 .main-con {
     flex: 1;
+
 }
 
 .success-card-con {
@@ -103,9 +106,19 @@ li::before {
     .body-con {
         display: grid;
     }
+
+    .card {
+        flex-direction: row-reverse;
+        border-radius: 10px;
+    }
     .footer-con {
         align-self: flex-end;
     }
+    .image-con {
+        padding: 1rem;
+    }
+
+    
 }
 
 .roboto-regular {
