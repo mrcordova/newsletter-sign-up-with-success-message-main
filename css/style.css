@@ -14,3 +14,7 @@
 .main-con {
     flex: 1;
 }
+
+.success-card-con {
+    display: none;
+}
