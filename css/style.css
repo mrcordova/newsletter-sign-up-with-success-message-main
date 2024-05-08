@@ -11,7 +11,7 @@
 
 
 .body-con {
-    display: grid;
+    display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: var(--dark-slate-grey);
@@ -36,7 +36,6 @@
 
 .footer-con {   
     background-color: aqua;
-    align-self: flex-end;
 }
 
 .input-con {
@@ -100,8 +99,13 @@ li::before {
    border-radius: 10px;
 }
 
-@media (min-width:) {
-    
+@media (min-width: 600px) {
+    .body-con {
+        display: grid;
+    }
+    .footer-con {
+        align-self: flex-end;
+    }
 }
 
 .roboto-regular {
