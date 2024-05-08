@@ -95,8 +95,7 @@ li::before {
    background-color: var(--dark-slate-grey);
    color: var(--white);
    text-align: center;
-   padding-inline: 1rem;
-   padding-block: 1.5rem;
+   padding-block: 1.25rem;
    border-radius: 10px;
 }
 
