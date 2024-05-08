@@ -15,6 +15,8 @@
     flex-direction: column;
     height: 100vh;
     background-color: var(--dark-slate-grey);
+    align-items: center;
+    justify-content: center;
 
 }
 .card {
@@ -29,6 +31,7 @@
     flex-direction: column;
     padding: 1em 2em 1em 1em;
     font-size: clamp(0.65em, calc(0.65em + 1.5vw), 5rem);
+    color: var(--charcoal-grey);;
 }
 
 .footer-con {   
@@ -43,6 +46,7 @@
 .input-lab {
     font-size: clamp(0.5rem, calc(0.5rem + 1.5vw), 1rem);
     padding-block: 2rem 1rem;
+    color: var(--dark-slate-grey)
 }
 
 .input-textbox {
@@ -84,11 +88,16 @@ li::before {
 .title {
    font-size: clamp(1rem, calc(2rem + 1.5vw), 15rem); 
    padding-block-end: 1.5rem;
+   color: var(--dark-slate-grey);
 }
 
 .sub-btn {
    background-color: var(--dark-slate-grey);
    color: var(--white);
+   text-align: center;
+   padding-inline: 1rem;
+   padding-block: 1.5rem;
+   border-radius: 10px;
 }
 
 .roboto-regular {
