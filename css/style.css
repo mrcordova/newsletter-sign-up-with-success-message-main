@@ -14,16 +14,32 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: pink;
+    background-color: var(--white);
 }
-
+.card {
+    display: flex;
+    flex-direction: column;
+}
 .card-bottom-half {
+    display: flex;
+    flex-direction: column;
     padding: 1em 2em 1em 1em;
+    font-size: clamp(0.65em, calc(0.65em + 1.5vw), 5rem);
 }
 
 .footer-con {   
     background-color: aqua;
 }
+
+.list-items>li::before {
+    content: url('/assets/images/icon-list.svg');
+}
+
+.list-title {
+    padding-block-end: 1.5rem;
+}
+
+
 
 .main-con {
     flex: 1;
@@ -34,7 +50,7 @@
 }
 
 .title {
-   font-size: clamp(1em, calc(2em + 1.5vw), 15em); 
+   font-size: clamp(1rem, calc(2rem + 1.5vw), 15rem); 
    padding-block-end: 1.5rem;
 }
 
