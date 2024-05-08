@@ -31,8 +31,17 @@
     background-color: aqua;
 }
 
-.list-items>li::before {
+li {
+    display: flex;
+    align-items: center;
+    padding-block-end: 0.5rem;
+}
+
+li::before {
     content: url('/assets/images/icon-list.svg');
+    /* padding-block-end: 0.5rem;å */
+    align-self: flex-start;
+    padding-inline-end: 0.5rem;
 }
 
 .list-title {
