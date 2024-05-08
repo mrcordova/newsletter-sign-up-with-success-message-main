@@ -111,6 +111,12 @@ body {
     line-height: 1;
 }
 
+button {
+    all: unset;
+}
+button:focus {
+    outline: revert;
+}
 ol,
 ul {
     list-style: none;
