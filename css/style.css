@@ -1,0 +1,16 @@
+.body-con {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: pink;
+}
+
+
+
+.footer-con {   
+    background-color: aqua;
+}
+
+.main-con {
+    flex: 1;
+}
