@@ -16,6 +16,11 @@
     height: 100vh;
     background-color: pink;
 }
+
+.card-bottom-half {
+    padding: 1em 2em 1em 1em;
+}
+
 .footer-con {   
     background-color: aqua;
 }
@@ -28,6 +33,10 @@
     display: none;
 }
 
+.title {
+   font-size: clamp(1em, calc(2em + 1.5vw), 15em); 
+   padding-block-end: 1.5rem;
+}
 
 .roboto-regular {
     font-family: "Roboto", sans-serif;
