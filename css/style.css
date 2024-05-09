@@ -50,7 +50,13 @@
 .input-lab {
     font-size: clamp(0.5rem, calc(0.5rem + 1.5vw), 1rem);
     padding-block: 2rem 1rem;
-    color: var(--dark-slate-grey)
+    color: var(--dark-slate-grey);
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-error {
+    color: var(--tomato);
 }
 
 .input-textbox {
