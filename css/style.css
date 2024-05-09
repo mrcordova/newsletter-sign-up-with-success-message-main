@@ -153,6 +153,11 @@ li::before {
         max-block-size: clamp(20rem, calc(22rem + 1.5vw), 43rem);
     }
 
+    .dismiss-btn:hover {
+        background-color: var(--tomato);
+        box-shadow: 0px 10px 20px var(--tomato);
+    }
+
     
 }
 
