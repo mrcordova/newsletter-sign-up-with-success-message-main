@@ -113,6 +113,7 @@ li::before {
 
 .dismiss-btn {
     margin-block-start: auto;
+    margin-block-end: 2rem;
 }
 
 .title {
@@ -150,7 +151,7 @@ li::before {
         display: grid;
         border-radius: 10px;
         max-inline-size: clamp(20rem, calc(20rem + 1.5vw), 43rem);
-        max-block-size: clamp(20rem, calc(22rem + 1.5vw), 43rem);
+        max-block-size: clamp(20rem, calc(23rem + 1.5vw), 45rem);
     }
 
     .dismiss-btn:hover {
