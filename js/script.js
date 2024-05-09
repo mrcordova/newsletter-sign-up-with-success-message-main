@@ -3,9 +3,10 @@ const dismissBtn = document.querySelector('.dismiss-btn');
 
 submitBtn.addEventListener('click', (e) => {
     // validate emial here
-
     const successSection = document.querySelector('.hide');
     const cardSection = document.querySelector('.card');
+    const inputBtn = document.querySelector('.input-textbox');
+    console.log(inputBtn.validity);
 
     
     successSection.classList.remove('hide');
