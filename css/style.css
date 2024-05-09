@@ -13,7 +13,7 @@
 .body-con {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--charcoal-grey);
     align-items: center;
     justify-content: center;
@@ -24,13 +24,14 @@
     flex-direction: column;
     align-items: center;
     
-    height: 100vh;
+    flex: 1;
     background-color: var(--white);
     max-inline-size: clamp(20rem, calc(70em + 1.5vw), 80rem);
 }
 .card-bottom-half {
     display: flex;
     flex-direction: column;
+    flex: 1;
     padding: 1em 2em 1em 1em;
     font-size: clamp(0.65em, calc(0.65em + 1.5vw), 5rem);
     color: var(--charcoal-grey);;
@@ -38,6 +39,8 @@
 
 .footer-con {   
    color: var(--white);
+   width: 100vw;
+   justify-self: end;
 }
 
 .input-con {
@@ -82,7 +85,9 @@ li::before {
 
 .main-con {
     flex: 1;
-
+    display: grid;
+    justify-content: center;
+    
 }
 
 .success-card-con {
@@ -128,6 +133,9 @@ li::before {
    text-align: center;
    padding-block: 1.25rem;
    border-radius: 10px;
+    margin-block-start: auto;
+    margin-block-end: 2rem;
+    
 }
 
 
@@ -139,7 +147,7 @@ li::before {
     .card {
         flex-direction: row-reverse;
         border-radius: 10px;
-        max-block-size: clamp(20rem, calc(40rem + 1.5vw), 50rem);
+        /* max-block-size: clamp(20rem, calc(40rem + 1.5vw), 50rem); */
     }
     
     .footer-con {
