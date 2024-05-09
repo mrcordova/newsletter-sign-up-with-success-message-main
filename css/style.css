@@ -84,7 +84,7 @@ li {
 }
 
 li::before {
-    content: url('assets/images/icon-list.svg');
+    content: url('/assets/images/icon-list.svg');
    
     align-self: flex-start;
     padding-inline-end: 0.5rem;
