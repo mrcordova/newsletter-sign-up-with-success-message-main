@@ -14,16 +14,17 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: var(--dark-slate-grey);
+    background-color: var(--charcoal-grey);
     align-items: center;
     justify-content: center;
 
 }
 .card {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background-color: var(--white);
     max-inline-size: clamp(20rem, calc(70em + 1.5vw), 80rem);
 }
@@ -36,7 +37,7 @@
 }
 
 .footer-con {   
-    background-color: aqua;
+   color: var(--white);
 }
 
 .input-con {
@@ -85,7 +86,33 @@ li::before {
 }
 
 .success-card-con {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100vh;
+
+    background-color: var(--white);
+    padding: 2rem;
+
+    
+}
+
+.success-card-con>img {
+    width: 60px;
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
+    
+}
+.success-text {
+    color: var(--dark-slate-grey);
+    padding-block-end: 1rem;
+    line-height: 1.5;
+}
+
+
+.dismiss-btn {
+    margin-block-start: auto;
 }
 
 .title {
@@ -111,11 +138,19 @@ li::before {
         flex-direction: row-reverse;
         border-radius: 10px;
     }
+    
     .footer-con {
         align-self: flex-end;
     }
     .image-con {
         padding: 1rem;
+    }
+
+    .success-card-con {
+        display: grid;
+        border-radius: 10px;
+        max-inline-size: clamp(20rem, calc(20rem + 1.5vw), 43rem);
+        max-block-size: clamp(20rem, calc(22rem + 1.5vw), 43rem);
     }
 
     
